@@ -1,0 +1,13 @@
+sample run:
+
+yifei@yifei-VirtualBox:~/Downloads/HW4$ gcc -o proj4 strsearch.c -lpthread
+yifei@yifei-VirtualBox:~/Downloads/HW4$ ./proj4 a.txt start
+File size: 9874 bytes.
+Occurrences of the string "start": 5
+yifei@yifei-VirtualBox:~/Downloads/HW4$ ./proj4 a.txt start mmap
+File size: 9874 bytes.
+Occurrences of the string "start": 5
+yifei@yifei-VirtualBox:~/Downloads/HW4$ ./proj4 a.txt start 1024
+File size: 9874 bytes.
+Occurrences of the string "start": 5
+

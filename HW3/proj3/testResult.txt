@@ -1,0 +1,16 @@
+Here is a sample run for graph
+
+The config.txt has the following content:
+A 1 1
+B 2 1 A
+C 3 1 A
+D 4 1 B C
+
+
+yifei@yifei-VirtualBox:~/Downloads/proj3$ ./graph config.txt
+Node A computed a value of 1 after 1 second.
+Node C computed a value of 3 after 2 second.
+Node B computed a value of 2 after 2 second.
+Node D computed a value of 4 after 3 second.
+Total computation resulted in a value of 10 after 3 seconds.
+
